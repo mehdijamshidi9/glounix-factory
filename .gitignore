@@ -1,0 +1,19 @@
+# Prevent accidental upload of environment and private material
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa*
+*.sqlite3
+*.db
+__pycache__/
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+backups/
+private/
+secrets/
